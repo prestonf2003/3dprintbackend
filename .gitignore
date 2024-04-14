@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+.env  # Add other environment variable files here
+
+# Build output
+dist/
+
+# Editor temporary files
+*.log
+*.pid
+.vscode/
+*.swp
+
+# Testing tools
+coverage/
+
+# Netlify specific (optional)
+# Only ignore specific Netlify function folders if needed
+!functions/ # Uncomment if you want to track Netlify Functions
+
+# Temporary files created by linters or formatters
+# Adjust based on the tools you use
+.eslintcache
+**/eslint.cache
+
+# Specific TypeScript files
+*.js  # If you're compiling to JavaScript, you might want to ignore source files
+!src/**/*.js  # But keep compiled JS in the src directory
+
+# Specific build artifacts (if using a build tool)
+# Adjust based on your build tool
+**/build/
+
+# Optional: Ignore generated documentation files
+doc/
+
+# Typically ignored files
+README.md
+LICENSE
